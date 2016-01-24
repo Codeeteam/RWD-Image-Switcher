@@ -1,0 +1,11 @@
+{
+  "name": "rwd-image-switcher",
+  "version": "1.0.0",
+  "author": "FlameColors <contact@flamecolors.pl>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-image": "^1.3.0",
+    "gulp-sass": "^2.1.1"
+  }
+}
