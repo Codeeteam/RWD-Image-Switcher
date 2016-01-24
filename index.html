@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0" />
+        <title>Responsive Image Switcher</title>
+        <link rel="stylesheet" href="dist/css/main.css" />
+    </head>
+    <body>
+
+        <section class="sec">
+            <span class="sec__bg js__sec__bg" data-options='{"steps": [
+                {
+                    "name": "desktop",
+                    "query": "(min-width: 1025px)",
+                    "srcImage": "dist/img/bg-1.png"
+                },
+                {
+                    "name": "tablet",
+                    "query": "(min-width: 768px) and (max-width: 1024px)",
+                    "srcImage": "dist/img/bg-2.png"
+                },
+                {
+                    "name": "smartphone",
+                    "query": "(min-width: 320px) and (max-width: 767px)",
+                    "srcImage": "dist/img/bg-3.png"
+                }
+            ]}'></span>
+        </section>
+
+        <script src="dist/js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="dist/js/vendor/modernizr-custom.js"></script>
+        <script src="dist/js/plugin/rwd-image-switcher.js"></script>
+        <script src="dist/js/main.js"></script>
+    </body>
+</html>
