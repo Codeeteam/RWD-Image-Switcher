@@ -19,7 +19,7 @@ $('.js__background').rwdImageSwitcher();
 
 ```javascript
 $('.js__background').rwdImageSwitcher({
-    log: 'false' // default,
+    log: 'false', // default
     callbackAfterSwitch: function () {};
 });
 ```
