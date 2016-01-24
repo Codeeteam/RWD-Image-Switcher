@@ -8,12 +8,7 @@
         },
 
         initRWDImageSwitcher: function () {
-            $('.js__sec__bg').rwdImageSwitcher({
-                // log: true
-                // callbackAfterSwitch: function (name) {
-                    
-                // }
-            });
+            $('.js__sec__bg').rwdImageSwitcher();
         }
     };
 

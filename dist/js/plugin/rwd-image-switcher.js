@@ -103,11 +103,6 @@
 
                         that.setImage(); // I set background image
 
-                        // Run callback
-                        if (typeof that.options.callbackAfterSwitch === 'function') {
-                            that.options.callbackAfterSwitch(items[i]);
-                        }
-
                         for (s; s <= itemsLength - 1; s = s + 1) {
                             if (i !== s) {
                                 that.stepsDisables[s] = true;
@@ -123,7 +118,7 @@
         },
 
         /**
-         * I set background in CSS value
+         * I set background
          * 
          * @return void
          */

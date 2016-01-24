@@ -8,9 +8,7 @@
         },
 
         initRWDImageSwitcher: function () {
-            $('.js__sec__bg').rwdImageSwitcher({
-                // log: true
-            });
+            $('.js__sec__bg').rwdImageSwitcher();
         }
     };
 

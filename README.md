@@ -4,6 +4,7 @@ Plugin allow change background image for diffrent resolution.
 
 ## Example
 
+[Demo] (http://flamecolors.github.io/RWD-Image-Switcher/)
 
 ## Install
 
